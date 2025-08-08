@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitación XV Años Fátima</title>
+
+  <!--fuentes de google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Hurricane&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+NSW:wght@100..400&display=swap"
+    rel="stylesheet" />
+
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!--ESTILOS-->
+  <style>
+   
+    body {
+      background-image: url('/static/floresazules.jpg');
+      /* Puedes cambiar la URL */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800 font-sans px-4 py-8" style="background-color: #f9f7f4">
+  <!--logo e imagenes principales-->
+  <div class="max-w-xl mx-auto px-4 py-10 text-center space-y-6">
+
+    <!-- Contenedor principal con posicionamiento relativo -->
+    <div class="relative max-w-5xl mx-auto">
+
+      <!-- Imagen flotante central "Fatima Ailed" -->
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+        <img src="../static/fatima-ailed-logo.png" alt="Fatima Ailed" class="w-[500px] md:w-[400px]" data-aos="zoom-in-up" data-aos-duration="3000"/>
+      </div>
+
+      <!-- Logo FA sobre la imagen del centro -->
+      <div class="absolute top-[-50px] left-1/2 transform -translate-x-1/2 z-10">
+        <img src="../static/fa-logo.png" alt="Logo FA" class="h-20"  data-aos="zoom-in-up" data-aos-duration="3000"/>
+      </div>
+
+      <!-- Imágenes verticales -->
+      <div class="grid grid-cols-3 gap-4 relative z-0">
+        <!-- Imagen izquierda -->
+        <img src="../static/gris.jpg" alt="Imagen 1" class="w-full h-[500px] object-cover shadow-md mt-0" data-aos="fade-up"
+     data-aos-duration="3000" />
+
+        <!-- Imagen central (más abajo) -->
+        <img src="../static/gris.jpg" alt="Imagen 2" class="w-full h-[500px] object-cover shadow-md mt-12" data-aos="fade-up"
+     data-aos-duration="2000" />
+
+        <!-- Imagen derecha -->
+        <img src="../static/gris.jpg" alt="Imagen 3" class="w-full h-[500px] object-cover shadow-md mt-0" data-aos="fade-up"
+     data-aos-duration="3000" />
+      </div>
+    </div>
+
+
+    <!------->
+
+    <div class="bg-[#f9f7f4] bg-opacity-90 rounded-sm p-2" data-aos="zoom-in">
+
+
+      <!-- Mensaje de invitación -->
+
+      <p class="text-2xl font-light mt-6" style="font-family: 'Dancing Script', cursive;">
+        Esfuerzate y sé valiente, no temas ni te acobardes, porque el Señor tu Dios estará contigo dondequiera que
+        vayas.
+      <p class="text-xs font-extralight mt-6" style="font-family: 'Montserrat', sans-serif;">
+        Josué 1:9
+      </p>
+      </p>
+
+
+      <p class="text-xl font-extralight mt-6 " style="font-family: 'Montserrat', sans-serif;">
+        Quince años han pasado desde que una pequeña luz iluminó nuestras vidas.  Hoy esa luz crece,
+        florece y se convierte en una joven llena de sueños.
+        Por ello, te invitamos con todo nuestro cariño  a reír, bailar, agradecer y compartir la celebración de los XV
+        años de nuestra hija
+      </p>
+
+
+
+      <p class="text-4xl font-semibold mt-6 " style="font-family: 'Dancing Script', cursive;">
+        Fatima Ailed Manriquez Fuerte
+      </p>
+    </div>
+
+    <!-- Imagen de la quinceañera -->
+    <img src="../static/gris.jpg" alt="Foto quinceañera" class="mx-auto  shadow-md"  data-aos="zoom-in"/>
+
+
+
+    <!---datos papás y madrina-->
+    <div class="bg-[#f9f7f4] bg-opacity-90 rounded-sm" data-aos="zoom-in">
+      <p class="text-2xl font-light mt-6" style="font-family: 'Montserrat', sans-serif;">
+        MIS PADRES
+      </p>
+      <p class="text-2xl font-extralight mt-6" style="font-family: 'Dancing Script', cursive;">
+        Luis Mariano Manríquez Reyes
+      </p>
+      <p class="text-2xl font-extralight mt-6" style="font-family: 'Dancing Script', cursive;">
+        Miriam Fuerte Tavera
+      </p>
+
+
+      <p class="text-2xl font-light mt-6" style="font-family: 'Montserrat', sans-serif;">
+        MI MADRINA
+      </p>
+      <p class="text-2xl font-extraight mt-6" style="font-family: 'Dancing Script', cursive;">
+        Ruth Manríquez Fuerte
+      </p>
+
+    </div>
+    <!-- Imagen de la quinceañera -->`
+    <img src="../static/gris.jpg" alt="Foto quinceañera" class="mx-auto shadow-md" data-aos="zoom-in" />
+
+
+    <!---cuenta regresiva-->
+
+    <div class="bg-[#f9f7f4] bg-opacity-90 rounded-sm p-2" data-aos="zoom-in">
+      <p class="text-2xl font-light mt-6" style="font-family: 'Montserrat', sans-serif;">CUENTA REGRESIVA</p>
+      <p id="cuenta-regresiva" class="text-6xl font-light p-2" style="font-family: 'Dancing Script', cursive;"></p>
+      <p class="text-2xl font-light" style="font-family: 'Montserrat', sans-serif; ">
+        13 . 09 . 2025
+      </p>
+    </div>
+
+
+    <div class="text-center font-sans text-black px-4 py-10 bg-[#f9f7f4] bg-opacity-90 rounded-sm p-2" data-aos="zoom-in">
+
+      <!-- Sección: Ceremonia -->
+      <div class="mb-16">
+        <img src="../static/iglesia.gif" alt="Iglesia" class="mx-auto w-20 mb-4" />
+        <h2 class="text-lg font-semibold tracking-wide">CEREMONIA</h2>
+        <p class="text-sm mt-2">Parroquia de la divina providencia</p>
+        <p class="text-sm">Italia 303, Moderna, 37220 León de los Aldama, Gto.</p>
+
+        <!-- Fecha y hora -->
+        <div class="flex justify-center items-center gap-8 mt-6">
+          <span class="text-lg font-semibold">13 SEP</span>
+          <div class="h-12 border-l border-gray-400"></div>
+          <span class="text-lg font-semibold">18:00</span>
+        </div>
+
+        <!-- Botón -->
+        <a href="https://maps.app.goo.gl/qvrADkEHqaZKnCoj8" target="_blank"> <button
+            class="mt-4 bg-[#6c758e] text-white text-sm px-6 py-2 rounded">ver ubicación</button></a>
+      </div>
+
+
+      <!-- Sección: Celebración -->
+      <div class="mt-16">
+        <img src="../static/fiesta.gif" alt="Disco" class="mx-auto w-20 mb-4" />
+        <h2 class="text-lg font-semibold tracking-wide">CELEBRACIÓN</h2>
+        <p class="text-sm mt-2">Salón de fiestas extravaganza</p>
+        <p class="text-sm">Blvr. Mariano Escobedo Pte. 4821, Cd Satélite, 37407 León de los Aldama, Gto.</p>
+
+        <!-- Fecha y hora -->
+        <div class="flex justify-center items-center gap-8 mt-6">
+          <span class="text-lg font-semibold">13 SEP</span>
+          <div class="h-12 border-l border-gray-400"></div>
+          <span class="text-lg font-semibold">21:00</span>
+        </div>
+
+        <!-- Botón -->
+        <a href="https://maps.app.goo.gl/wjB7QyDcKqeBjHrz9" target="_blank"><button
+            class="mt-4 bg-[#6c758e] text-white text-sm px-6 py-2 rounded">ver ubicación</button></a>
+      </div>
+    </div>
+
+
+
+    <section class="bg-[#f9f7f4] bg-opacity-90 rounded-sm p-2" data-aos="zoom-in">
+      <p class="text-2xl font-light mt-6 p-2 " style="font-family: 'Montserrat', sans-serif;">Tu prescencia hace de esta
+        celebración algo innolvidable</p>
+    
+        <!-- Input + botón -->
+      <div class="space-y-4 ">
+        <input id="nombre" type="text" placeholder="Ingresa tu nombre..."
+          class="w-full px-4 py-2 border border-[#7D869C] bg-transparent text-[#7D869C] placeholder-[#7D869C] shadow-sm focus:outline-none focus:ring-[#7D869C] focus:border-[#7D869C]" />
+
+        <button onclick="verPases()"
+          class="mt-4 bg-[#6c758e] text-white text-sm px-6 py-2 rounded transition duration-300">
+          Ver mis pases
+        </button>
+      </div>
+
+      <!-- Resultado -->
+      <div id="resultado" class="mt-6 text-center font-extralight"></div>
+
+
+  </div>
+
+
+  <section class="max-w-4xl mx-auto px-4 py-10 space-y-4">
+
+    <!-- Imagen 1 - grande -->
+    <img src="../static/gris.jpg" alt="Foto 1" class="w-full h-auto rounded-md object-cover" data-aos="zoom-in" />
+
+    <!-- Dos imágenes lado a lado siempre -->
+    <div class="grid grid-cols-2 gap-4">
+      <img src="../static/gris.jpg" alt="Foto 2" class="w-full h-auto rounded-md object-cover" data-aos="zoom-in"/>
+      <img src="../static/gris.jpg" alt="Foto 3" class="w-full h-auto rounded-md object-cover" data-aos="zoom-in" />
+    </div>
+
+    <!-- Imagen 4 - grande -->
+    <img src="../static/gris.jpg" alt="Foto 4" class="w-full h-auto rounded-md object-cover" data-aos="zoom-in"/>
+
+  </section>
+
+
+
+
+  <script>
+  function verPases() {
+  const inputNombre = document.getElementById("nombre").value.trim();
+  const resultado = document.getElementById("resultado");
+
+  if (!inputNombre) {
+    resultado.innerHTML = `<p class="text-red-600">Por favor ingresa un nombre.</p>`;
+    return;
+  }
+
+  fetch(`/buscar?nombre=${encodeURIComponent(inputNombre)}`)
+    .then(response => response.json())
+    .then(data => {
+      if (data.encontrado) {
+        const acompañantes = data.invitados.filter(n => n !== inputNombre);
+        const acompañantesTexto = acompañantes.length > 0 ? acompañantes.join(", ") : "sin acompañantes registrados";
+
+        resultado.innerHTML = `
+          <p class="text-green-700">Hola <strong>${inputNombre}</strong>, tienes <strong>${data.pases}</strong> pase(s)</p>
+          <p class="mt-2">Acompañantes: <strong>${acompañantesTexto}</strong></p>
+          <p class="text-2xl font-extralight mt-6" style="font-family: 'Dancing Script', cursive;">
+            Nos encantará verte ese día, por favor confirma tu asistencia.
+          </p>
+          <button id="btnConfirmar" 
+            class="mt-4 bg-[#6c758e] text-white text-sm px-6 py-2 rounded transition duration-300">
+            Confirmar asistencia
+          </button>
+        `;
+
+        // Asignar el evento al botón después de insertarlo en el DOM
+        document.getElementById("btnConfirmar").addEventListener("click", () => {
+          enviarWhatsApp(inputNombre, data.invitados);
+        });
+
+      } else {
+        resultado.innerHTML = `
+          <p class="text-[#6c758e]">😅 ¡Ups! No encontramos tu nombre en la lista.<br>
+          Verifica que esté bien escrito o contáctanos si crees que hubo un error. ¡Queremos que no faltes!</p>
+        `;
+      }
+    })
+    .catch(() => {
+      resultado.innerHTML = `<p class="text-red-600">Error al conectar con el servidor. Intenta más tarde.</p>`;
+    });
+}
+
+    function enviarWhatsApp(nombre,invitados) {
+    const acompañantes = invitados.filter(n => n !== nombre);
+    const listaConfirmados = [nombre, ...acompañantes].join(", ");
+    const mensaje = encodeURIComponent(`Hola, confirmo asistencia de ${listaConfirmados} a los XV años de Fátima. ¡Nos vemos el 13 de septiembre!`);
+    const numero = "524776623491";
+    const url = `https://wa.me/${numero}?text=${mensaje}`;
+    window.open(url, "_blank");
+    }
+
+
+    function buscarInvitado() {
+    const nombre = document.getElementById("nombreInput").value;
+
+    fetch(`/buscar?nombre=${encodeURIComponent(nombre)}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.encontrado) {
+                alert(`¡Estás invitado! Tienes ${data.pases} pases`);
+                // puedes mostrar los invitados también
+            } else {
+                alert("No estás en la lista 😢");
+            }
+        });
+}
+     // Función para calcular la cuenta regresiva
+    function actualizarCuentaRegresiva() {
+      const fechaEvento = new Date("2025-09-13T20:00:00").getTime();
+      const ahora = new Date().getTime();
+      const diferencia = fechaEvento - ahora;
+
+      if (diferencia < 0) {
+        document.getElementById("cuenta-regresiva").innerHTML = "¡El evento ya ha pasado!";
+        return;
+      }
+
+      const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+      const horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+      const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+
+
+      document.getElementById("cuenta-regresiva").innerHTML = `${dias}d ${horas}h ${minutos}m ${segundos}s`;
+    }
+
+    // Actualizar la cuenta regresiva cada segundo
+    setInterval(actualizarCuentaRegresiva, 1000);
+
+
+
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </div>
+
+</body>
+
+</html>
