@@ -218,10 +218,16 @@ if __name__ == "__main__":
     
 
     
-    agregar_varios_invitados(nuevos_invitados)
+    #agregar_varios_invitados(nuevos_invitados)
 
 
-
+    agregar_invitado("Blanca Rocha",3,"Blanca Rocha, Antonio Casanova, Refugio Manriquez")
+    agregar_invitado("Guadalupe Gonzalez",2,"Guadalupe Gonzalez, +1 adulto")
+    agregar_invitado("Pilar",2,"Pilar, +1 adulto")
+    agregar_invitado("Claudia Cayetano",2,"Claudia Cayetano, +1 adulto")
+    agregar_invitado("Alma Vareala",2,"Alma Varela, Lupita Valencia")
+    agregar_invitado("Anita",1,"Anita")
+    agregar_invitado("Maria de Jesus Fuerte",2,"Maria de Jesus Fuerte, +1 adulto")
 
     # editar_invitado(2, nuevo_nombre="Cristina Ramírez", nuevos_pases=4)
    
