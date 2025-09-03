@@ -229,8 +229,11 @@ if __name__ == "__main__":
    # agregar_invitado("Anita",1,"Anita")
    # agregar_invitado("Maria de Jesus Fuerte",2,"Maria de Jesus Fuerte, +1 adulto")
 
-    # editar_invitado(2, nuevo_nombre="Cristina Ramírez", nuevos_pases=4)
-   
+    #editar_invitado(190, nuevo_nombre="Claudia Rendon", nuevos_pases=1)
+    #editar_invitado(190, nuevos_invitados="Claudia Rendon")
+   # editar_invitado(192, nuevos_invitados="Mario Jasso, Mario Jasso hijo +1 adulto", nuevos_pases=3)
+   # editar_invitado(182,  nuevo_nombre="Dolores Reyes", nuevos_invitados="Dolores Reyes, +3 adultos")
+
 
     # Llama a la función para eliminar todos los invitados
     #eliminar_todos_invitados()
@@ -240,12 +243,16 @@ if __name__ == "__main__":
    # eliminar_invitado(180)
    # eliminar_invitado(199)
 
-    agregar_invitado("Zoe Robledo",1,"Zoe Robledo")
-    agregar_invitado("Ramses de la Torre",1,"Ramses de la Torre")
-    agregar_invitado("Frida Franco",1,"Frida Franco")
-    agregar_invitado("Arleth Diaz",1,"Arleth Diaz")
-    agregar_invitado("Odette Angeles",1,"Odette Angeles")
-    agregar_invitado("Uriel Patiño",1,"Uriel Patiño")
-    agregar_invitado("Kamila Abdalah",1,"Kamila Abdalah")
-    agregar_invitado("Antonio Santos",1,"Antonio Santos")
+    #agregar_invitado("Zoe Robledo",1,"Zoe Robledo")
+    #agregar_invitado("Ramses de la Torre",1,"Ramses de la Torre")
+  #  agregar_invitado("Frida Franco",1,"Frida Franco")
+   # agregar_invitado("Arleth Diaz",1,"Arleth Diaz")
+   # agregar_invitado("Odette Angeles",1,"Odette Angeles")
+   # agregar_invitado("Uriel Patiño",1,"Uriel Patiño")
+   # agregar_invitado("Kamila Abdalah",1,"Kamila Abdalah")
+    agregar_invitado("Gonzalo Guevara",2,"Gonzalo Guevara, +1 adulto")
+    agregar_invitado("Juan Pablo Barron",5,"Juan Pablo Barron, Silvia Jimenez, Gabino Barron, Maximo Barron, +1 niño")
+    agregar_invitado("Jesús Ramirez",2,"Jesús Ramirez, Viridiana Rmirez")
+    
+
     ver_invitados()
