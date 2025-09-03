@@ -127,7 +127,7 @@ if __name__ == "__main__":
         ("Herminia Tavera", 7, "Herminia Tavera, Juan Fuerte, Magda Fuerte, Caro Fuerte, Diego Fuerte, Jesus Rios, Denisse"),
         ("Cesar Aranda", 2, "Cesar Aranda, Denisse Ontiveros"),
         ("Melissa Aranda", 3, "Melissa Aranda, Humberto Becerra, Matias Becerra"),
-        ("Gammaliel Fuerte", 8, "Gammaliel Fuerte, Coco Muñoz, Jafet Fuerte, Josue Fuerte, Judith Fuerte, Hassiel Fuerte, Daniela Villagomez, Sandra Colorado"),
+        ("Gammaliel Fuerte", 8, "Gamaliel Fuerte, Coco Muñoz, Jafet Fuerte, Josue Fuerte, Judith Fuerte, Hassiel Fuerte, Daniela Villagomez, Sandra Colorado"),
         ("Juanita Tavera", 4, "Juanita Tavera, Fer Aranda, Rene Cardona, Manuel Aranda"),
         ("Violeta Tavera", 5, "Violeta Tavera, Jesus Campos, Jonathan Campos, Veronica Campos, Angel Campos"),
         ("Jose Luis Chavez", 2, "Jose Luis Chavez, Lupita"),
@@ -217,42 +217,7 @@ if __name__ == "__main__":
     ]
     
 
-    
-    #agregar_varios_invitados(nuevos_invitados)
-
-
-   # agregar_invitado("Blanca Rocha",3,"Blanca Rocha, Antonio Casanova, Refugio Manriquez")
-   # agregar_invitado("Guadalupe Gonzalez",2,"Guadalupe Gonzalez, +1 adulto")
-   # agregar_invitado("Pilar",2,"Pilar, +1 adulto")
-   # agregar_invitado("Claudia Cayetano",2,"Claudia Cayetano, +1 adulto")
-   # agregar_invitado("Alma Vareala",2,"Alma Varela, Lupita Valencia")
-   # agregar_invitado("Anita",1,"Anita")
-   # agregar_invitado("Maria de Jesus Fuerte",2,"Maria de Jesus Fuerte, +1 adulto")
-
-    #editar_invitado(190, nuevo_nombre="Claudia Rendon", nuevos_pases=1)
-    #editar_invitado(190, nuevos_invitados="Claudia Rendon")
-   # editar_invitado(192, nuevos_invitados="Mario Jasso, Mario Jasso hijo +1 adulto", nuevos_pases=3)
-   # editar_invitado(182,  nuevo_nombre="Dolores Reyes", nuevos_invitados="Dolores Reyes, +3 adultos")
-
-
-    # Llama a la función para eliminar todos los invitados
-    #eliminar_todos_invitados()
-    
-
-  #  eliminar_invitado(154)
-   # eliminar_invitado(180)
-   # eliminar_invitado(199)
-
-    #agregar_invitado("Zoe Robledo",1,"Zoe Robledo")
-    #agregar_invitado("Ramses de la Torre",1,"Ramses de la Torre")
-  #  agregar_invitado("Frida Franco",1,"Frida Franco")
-   # agregar_invitado("Arleth Diaz",1,"Arleth Diaz")
-   # agregar_invitado("Odette Angeles",1,"Odette Angeles")
-   # agregar_invitado("Uriel Patiño",1,"Uriel Patiño")
-   # agregar_invitado("Kamila Abdalah",1,"Kamila Abdalah")
-    agregar_invitado("Gonzalo Guevara",2,"Gonzalo Guevara, +1 adulto")
-    agregar_invitado("Juan Pablo Barron",5,"Juan Pablo Barron, Silvia Jimenez, Gabino Barron, Maximo Barron, +1 niño")
-    agregar_invitado("Jesús Ramirez",2,"Jesús Ramirez, Viridiana Rmirez")
-    
-
+    editar_invitado(115,  nuevo_nombre="Gamaliel Fuerte", nuevos_pases=6, nuevos_invitados= "Gamaliel Fuerte, Coco Muñoz, Jafet Fuerte, Judith Fuerte, Hassiel Fuerte, Daniela Villagomez")
+    editar_invitado(nuevos_invitados="Alex Balderas, +1 adulto", id=116, nuevos_pases=3)
+    editar_invitado( id=162, nuevos_pases=3, nuevos_invitados="Oscar Balandran, Tere Rodriguez, +1 niño")
     ver_invitados()
