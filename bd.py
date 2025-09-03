@@ -236,4 +236,16 @@ if __name__ == "__main__":
     #eliminar_todos_invitados()
     
 
+  #  eliminar_invitado(154)
+   # eliminar_invitado(180)
+   # eliminar_invitado(199)
+
+    agregar_invitado("Zoe Robledo",1,"Zoe Robledo")
+    agregar_invitado("Ramses de la Torre",1,"Ramses de la Torre")
+    agregar_invitado("Frida Franco",1,"Frida Franco")
+    agregar_invitado("Arleth Diaz",1,"Arleth Diaz")
+    agregar_invitado("Odette Angeles",1,"Odette Angeles")
+    agregar_invitado("Uriel Patiño",1,"Uriel Patiño")
+    agregar_invitado("Kamila Abdalah",1,"Kamila Abdalah")
+    agregar_invitado("Antonio Santos",1,"Antonio Santos")
     ver_invitados()
